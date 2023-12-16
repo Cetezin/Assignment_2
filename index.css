@@ -113,6 +113,10 @@ form span{
     color: #548BC5;
 }
 
+input:focus{
+    border: none
+}
+
 .name{
     margin-top: 23px;
     display: flex;
@@ -219,10 +223,11 @@ p#price{
     font-size: 40px;
     margin-block: 0;
     margin-inline-start: 5px;
-    >span{
-        font-size: 18px;
-        margin-block: 0;
-    }
+}
+
+#price span{
+    font-size: 18px;
+    margin-block: 0;
 }
 
 #front{
@@ -244,10 +249,11 @@ p#renew{
     display: flex;
     color: white;
     align-items: last baseline;
-    >img{
-        height: 18px;
-        margin-inline-end: 11px;
-    }
+}
+
+.items img{
+    height: 18px;
+    margin-inline-end: 11px;
 }
 
 .items p{
@@ -269,10 +275,11 @@ section.two hr{
 .kirk-beard{
     display: flex;
     gap: 12px;
-    >img{
-        height: 50px;
-        border-radius: 50%;
-    }
+}
+
+.kirk-beard>img{
+    height: 50px;
+    border-radius: 50%;
 }
 
 .container>p{
